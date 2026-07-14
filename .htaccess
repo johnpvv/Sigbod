@@ -1,0 +1,4 @@
+ErrorDocument 404 http://%{HTTP_HOST}/Dropbox/sigbod/error/error.html
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)/$ /$1 [L,R=301]

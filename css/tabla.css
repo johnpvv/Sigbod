@@ -1,0 +1,358 @@
+/*-------------------------------------------estilos para tablas v1.0-------------------------------------------------*/
+/*-------------------------------------------estilos tr, th y td-------------------------------------------------*/
+table tr:nth-child(even) {
+    background-color: #eee;
+    border: 1px solid black;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+td{
+    border: 1px solid black;
+    width: auto;
+}
+th {
+    background: #eee;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*-------------------------------------------estilos para tablas-------------------------------------------------*/
+.table{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 785px;
+    margin: 5px;
+    text-align: left;
+    border-collapse:collapse;
+    border: 1px solid black;
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table0{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 800px;
+    margin: 5px;
+    text-align: left;
+    border-collapse:collapse;
+    border: 3px;
+    border-style: ridge;
+    border-color: #FF0000;
+    position: initial;
+    margin: auto;
+}
+.table0a{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 1024px;
+    margin: 5px;
+    text-align: left;
+    border-collapse:collapse;
+    border: 3px;
+    border-style: ridge;
+    border-color: #FF0000;
+    position: initial;
+    margin: auto;
+}
+.table1{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1240px;
+    margin: 10px;
+    text-align: center;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;  
+    border: 1px solid black;
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table2{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1280px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+}
+.table2a{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1280px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+}
+.table2b{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 790px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+.table2c{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1280px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+}
+.table2d{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 1290px;
+    text-align: center;
+    border: 5px;
+    padding: 12px;
+    border-collapse:collapse;
+    border-style: ridge;
+    border-color: #FF0000;      
+}
+.table2e{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 1280px;
+    margin: 2px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.75);
+}
+.table2f{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 790px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+.table3{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1040px;
+    margin: 10px;
+    text-align: left;
+    border-collapse:collapse;
+    border: 1px solid black;
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table3a{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 1244px;
+    margin: 10px;
+    text-align: left;
+    border-collapse:collapse;
+    border: 1px solid black;
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table4{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;
+    margin: 1px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+}
+.table4a{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 560px;
+    margin: 1px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    box-shadow: 3px 3px 10px #999;
+}
+.table5{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 780px;
+    margin: 5px;
+    text-align: center;
+    border-collapse:collapse;
+    border: 0px solid black;
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table6{
+    background-color:#ffffff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: auto;
+    text-align: justify;
+    width: auto;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #ffffff;      
+    border-bottom-color:#ffffff;
+    position: initial;
+
+}
+.table7{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.table8{
+    background-color:#F2F2F2;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    width: 960px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    border-style:solid;
+    border-color: #808080;      
+    border-bottom-color:#000000;
+    position: initial;
+    margin: auto;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+/*--------------------------------------------------------filtro de tabla---------------------------------------------------------------*/
+.tablesorter-default .header,
+.tablesorter-default .tablesorter-header {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+    background-position: center right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    white-space: normal;
+    padding: 1px 20px 1px 2px;
+    height: 0.2em;
+
+}
+.tablesorter-default thead .headerSortUp,
+.tablesorter-default thead .tablesorter-headerSortUp,
+.tablesorter-default thead .tablesorter-headerAsc {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+    border-bottom: #000 2px solid;
+    background-color: #808080;
+    color: #ffffff;
+}
+.tablesorter-default thead .headerSortDown,
+.tablesorter-default thead .tablesorter-headerSortDown,
+.tablesorter-default thead .tablesorter-headerDesc {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+    border-bottom: #000 2px solid;
+    background-color: #808080;
+    color: #ffffff;
+}
+.tablesorter-default thead .sorter-false {
+    background-image: none;
+    cursor: default;
+    padding: 2px;
+}
+.tablesorter-default thead .loading:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background-image: url("../img/loader.gif");
+}

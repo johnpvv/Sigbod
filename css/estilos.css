@@ -1,0 +1,1566 @@
+﻿/*--------------------------------------------------- Fondo del sitio---------------------------------------------*/
+.fondo {
+    background-image: url("../img/fondo/fondo.jpg");
+    background-size: 1366px 768px;
+    background-attachment: fixed;
+    background-position: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+/*----------------------------------------------------formato de textos--------------------------------------------*/
+.texto{    
+    padding: 1px;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color:#808080;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
+.textograd{    
+    padding: 1px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(50%, #787878), color-stop(100%, #383838));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #787878 50%, #383838 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#383838', GradientType=0 );
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
+.textoredondo{
+    bottom:2px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(50%, #787878), color-stop(100%, #383838));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #787878 50%, #383838 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#383838', GradientType=0 );
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.textoredondo0{
+    bottom:2px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #ffffff;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(50%, #787878), color-stop(100%, #383838));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #787878 50%, #383838 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#383838', GradientType=0 );
+    width:20px;
+    height:20px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.textoredondo1{
+    bottom:3px;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #808080;
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.textoredondo2{
+    bottom:2px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    background: #9ade8c;
+    background: -moz-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #9ade8c), color-stop(41%, #07ad12), color-stop(99%, #042908), color-stop(100%, #042908));
+    background: -webkit-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -o-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -ms-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: linear-gradient(to bottom, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ade8c', endColorstr='#042908', GradientType=0 );
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.textoredondo3{
+    bottom:3px;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #808080;
+    width:27px;
+    height:27px;
+    border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	display:flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	align-items: center;
+}
+.texto0{    
+    padding: 1px;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color:#000000;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
+.texto0a{    
+    padding: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color:#000000;
+    border: 1px solid #000000;
+    text-align: left;
+}
+.texto0b{    
+    padding: 1px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #000000;
+    background:transparent;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: center;
+}
+.texto1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin: auto;
+    text-align: right;	
+}
+.texto1b{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin: auto;
+    text-align: center;	
+}
+.texto1a{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    padding: 2px;
+    background-color: #cccccc;
+    font-size: 15px;
+    color: #000000;
+    margin: auto;
+    text-align: center;	
+    box-shadow: 1px 1px 2px #000000;
+}
+.texto2{    
+    padding: 2px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #737373;
+    border: 1px solid #000000;
+    width: 1274px;
+    position: initial;
+    margin: auto;    
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.texto3{    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #808080;
+    border: 1px solid #000000;
+    text-align: center;
+}   
+.texto4{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 2px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ee1000;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+}
+.texto4a{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 1px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ee1000;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    box-shadow: 3px 3px 10px #000000;
+}
+.texto4b{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ee1000;
+    /* background-color: #ee1000;*/
+    width: auto;
+    margin: auto;
+}
+.texto4c{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 2px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ee1000;
+    border: 1px solid #000000;
+    width: 720px;
+    position: initial;
+    margin: auto;
+}
+.texto4d{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    padding: 1px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ee1000;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: left;
+}
+.texto5{
+    padding: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+.texto5a{
+    padding: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    height: 50px;
+    font-size: 13px;
+    color: #000000;
+}
+.texto5b{    
+    padding: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    height:25px;
+    font-size: 13px;
+    color: #000000;
+    width: 100px;
+    position: initial;
+    margin: auto;
+}
+.texto5c{    
+    padding: 4px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    height:30px;
+    font-size: 13px;
+    color: #000000;
+    margin: auto;
+}
+.texto6{
+    padding: 3px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+}
+.texto6a{
+    padding: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+.texto6b{
+    padding: 1px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+}
+.texto7{
+    padding: 5px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;  
+    color: #ffffff;
+    text-align: center;
+    background-color: #808080;
+}
+.texto7a{
+    padding: 5px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;  
+    color: #ffffff;
+    text-align: center;
+    background-color: #808080;
+}
+.texto7b{
+    padding: 2px;
+    font-weight: 600;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;  
+    color: #ffffff;
+    text-align: center;
+    background-color: #8c8c8c;
+}
+.texto7c{
+    padding: 2px;
+    font-weight: 600;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;  
+    color: #ffffff;
+    text-align: left;
+    background-color: #8c8c8c;
+}
+.texto8{    
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 240px;
+    position: initial;
+    margin: auto;
+    text-align: right;
+}
+.texto_ancho{    
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 180px;
+    position: initial;
+    margin: auto;
+    text-align: right;
+}
+.texto8a{    
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+}
+.texto8b{    
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+.texto8c{    
+    background-color: #808080;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+}
+.texto8d{    
+    padding: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #000000;
+    background:transparent;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: center;
+}
+.texto8e{    
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+.texto8f{    
+    padding: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: right;
+}
+.texto8g{    
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+.texto8h{    
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 720px;
+    margin: auto;
+    text-align: left;
+}
+.texto8i{    
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 480px;
+    position: initial;
+    margin: auto;
+    text-align: right;
+}
+.texto8j{    
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 720px;
+    margin: auto;
+    text-align: center;
+}
+.texto9{    
+    padding: 2px;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: left;
+}
+.texto9a{    
+    padding: 2px;
+    font-size: 13px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: auto;
+    position: initial;
+    margin: auto;
+    text-align: left;
+}
+.texto10{
+    text-align: left;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
+}
+.texto11{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 300;
+    color: #0000ff;
+    font-size: 10px;
+}
+.texto11a{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 11px;
+}
+.texto12{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #ee1000;
+    font-weight: 700;
+}
+/*----------------------------------------------botones-------------------------------------------------------*/
+.boton{
+    padding: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ebb3b3;
+    background: -moz-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebb3b3), color-stop(1%, #ebb3b3), color-stop(50%, #ed0505), color-stop(98%, #a60000), color-stop(100%, #a60000));
+    background: -webkit-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -o-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -ms-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: linear-gradient(to bottom, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebb3b3', endColorstr='#a60000', GradientType=0 );
+    border-radius: 6px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    box-shadow: 5px 5px 10px 0px #1C1C1C;
+    cursor: pointer;
+	transition: transform 0.2s;
+}
+.botonder{
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background: #ebb3b3;
+    background: -moz-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebb3b3), color-stop(1%, #ebb3b3), color-stop(50%, #ed0505), color-stop(98%, #a60000), color-stop(100%, #a60000));
+    background: -webkit-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -o-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -ms-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: linear-gradient(to bottom, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebb3b3', endColorstr='#a60000', GradientType=0 );
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 30px;
+    height: 30px;
+    float: right;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-20%, -100%);    
+    margin: -32px 0px 0px 0px;
+}
+.boton1{
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background: #ebb3b3;
+    background: -moz-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebb3b3), color-stop(1%, #ebb3b3), color-stop(50%, #ed0505), color-stop(98%, #a60000), color-stop(100%, #a60000));
+    background: -webkit-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -o-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -ms-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: linear-gradient(to bottom, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebb3b3', endColorstr='#a60000', GradientType=0 );
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    alignment-adjust: central;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.boton1a{
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background: #9ade8c;
+    background: -moz-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #9ade8c), color-stop(41%, #07ad12), color-stop(99%, #042908), color-stop(100%, #042908));
+    background: -webkit-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -o-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: -ms-linear-gradient(top, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    background: linear-gradient(to bottom, #9ade8c 0%, #07ad12 41%, #042908 99%, #042908 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ade8c', endColorstr='#042908', GradientType=0 );
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    alignment-adjust: central;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.boton1b{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    alignment-adjust: central;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.boton:hover{
+    color: #000000;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    text-shadow: 0px 0px 0px #000000;
+    box-shadow: 3px 3px 5px #999;
+	transform: scale(1.05);
+	transition: transform 0.2s;
+}
+.boton1:hover{
+    color: #000000;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    box-shadow: 3px 3px 10px #999;
+    cursor: pointer;
+}
+.boton1a:hover{
+    color: #000000;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    text-shadow: 0px 0px 0px #000000;
+    box-shadow: 3px 3px 5px #999;
+}
+.boton1b:hover{
+    color: #000000;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    text-shadow: 0px 0px 0px #000000;
+    box-shadow: 3px 3px 5px #999;
+}
+.boton1c{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #ffffff;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(50%, #787878), color-stop(100%, #383838));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #787878 50%, #383838 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#383838', GradientType=0 );
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    alignment-adjust: central;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.boton1d{
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f5f5f5), color-stop(50%, #787878), color-stop(100%, #383838));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #787878 50%, #383838 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #787878 50%, #383838 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#383838', GradientType=0 );
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    alignment-adjust: central;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.botonder:hover{
+    color: #000000;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    text-shadow: 0px 0px 0px #000000;
+    box-shadow: 3px 3px 5px #999;
+}
+.botonnormal{
+    padding: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ebb3b3;
+    background: -moz-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebb3b3), color-stop(1%, #ebb3b3), color-stop(50%, #ed0505), color-stop(98%, #a60000), color-stop(100%, #a60000));
+    background: -webkit-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -o-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: -ms-linear-gradient(top, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    background: linear-gradient(to bottom, #ebb3b3 0%, #ebb3b3 1%, #ed0505 50%, #a60000 98%, #a60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebb3b3', endColorstr='#a60000', GradientType=0 );
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-shadow: 1px 1px 2px #000000;	
+	transition: transform 0.2s;
+}
+.botonnormal:hover{
+    color: #000000;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    box-shadow: 5px 5px 10px 0px #1C1C1C;
+    text-shadow: 0px 0px 0px #000000;
+    cursor: pointer;
+	transform: scale(1.05);
+	transition: transform 0.2s;
+}
+.botonredondo{
+    bottom:2px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #808080;
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border: 1px solid #000000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.botonredondo:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px #1C1C1C;
+    text-shadow: 0px 0px 0px #000000;
+    cursor: pointer;
+}
+/*------------------------------------------color de elementos---------------------------------------------*/
+.color_gris{
+    padding: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    background-color: #dddddd;
+}
+.color_rojo{
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+    background-color: #ff3333;
+}
+.color_menu{
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    background-color: #ff3333;
+}
+.color_amarillo{
+    padding: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffb3;  
+}
+.color_celeste{
+    padding: 1px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    background-color: #b1eafb;  
+}
+/*-------------------------------------------cajas de texto------------------------------------------------*/
+.caja {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #001521;
+    box-shadow: 3px 3px 10px #999;
+    cursor: url("../img/pencil.cur"), text;
+}
+.caja_negrita {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #001521;
+    box-shadow: 3px 3px 10px #999;
+    cursor: url("../img/pencil.cur"), text;
+}
+.caja_negrita_desab {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #001521;
+    box-shadow: 3px 3px 10px #999;
+    cursor: no-drop;
+}
+.caja_neg_ssombra {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #001521;
+}
+.caja_num_subdoc {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #001521;
+}
+.caja_simple {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #001521;
+}
+.caja_pading {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #001521;
+}
+.caja_pading1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #001521;
+    background-color: #D0E0F2;  
+}
+.caja_pading2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #001521;
+}
+.caja_pading3 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    padding: 6px;
+    border-radius: 3px;
+    border: 2px solid #ee1000;
+}
+.caja_texto {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #001521;
+}
+.caja_texto_numdoc {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #001521;
+}
+.caja1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #001521;
+    background-color: royalblue;
+    text-align: center;
+    box-shadow: 3px 3px 10px #999;
+}
+.caja2 {    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: center; 
+}
+.caja2a{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2a1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 9px;
+    font-weight: 500;
+    color: #3349FF;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 0px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2f{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 0px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2b{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2c{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2d{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja2e{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+}
+.caja3 {    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: center; 
+}
+.caja_color {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #100000;
+    background-color:#DDDDDD;
+
+}
+.caja_azul {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #001521;
+    background-color: yellowgreen;
+}
+.caja_rojo {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #001521;
+    background-color:#ee2458;
+
+}
+.caja_select {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #001521;
+    background-color:#ccd9ff;
+    width:70px;
+    height:18px;
+}
+.caja_val {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 0px;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid #001521;
+    background:transparent;
+    text-align: left; 
+    width:95px;
+    height:25px;
+}
+/*-------------------------------------------posicion de elementos--------------------------------------------*/
+.txtbajo{
+    position:absolute;
+    bottom:5px;
+    width:1350px;/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-675px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 10px;
+    font-weight: 200;
+    color: #000000;
+    text-align: center; 
+    margin: auto;	
+}
+.abajo{
+    position:fixed;
+    bottom:5px;
+    left: 50%;/*centrar a la mitad desde la izq*/
+    transform: translate(-50%);
+    border:1px solid #808080;
+    padding:4px;
+    background-color:#eeeeee;
+    box-shadow: 3px 3px 10px #999;
+    border-radius: 3px;
+    opacity:0.4;
+}
+.pagerform{
+    position:fixed;
+    bottom:5px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom:1px;
+	background-color:#cccccc;
+	padding:3px;
+	border-radius:3px;
+}
+.abajo:hover{
+    opacity:1;
+}
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    align-items: center;
+}
+.centrar_vert{
+    float: left;
+    margin: 25px 0px 0px 0px;
+}
+.centrar{
+    position:absolute; /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%; /*determinamos una anchura*/
+    width:350px;/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-175px; /*determinamos una altura*/
+    height:300px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-150px;
+    border:1px solid #808080;
+    padding:8px;
+    background-color:#ffffff;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+}
+.centrar_cuadro{
+    position:absolute; /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%; /*determinamos una anchura*/
+    width:260px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-130px;/*determinamos una altura*/
+    height:120px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-60px;
+    border:1px solid #808080;
+    padding:8px;
+    background-color:#ffffff;
+    opacity:0.9;
+    box-shadow: 3px 3px 10px #999;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    border-radius: 4px;
+}
+.centrar_cuadro_alertas{
+    position:absolute; /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%; /*determinamos una anchura*/
+    width:420px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-210px;/*determinamos una altura*/
+    height:200px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-100px;
+    border:1px solid #808080;
+    padding:8px;
+    background-color:#ffffff;
+    opacity:1;
+    box-shadow: 3px 3px 10px #999;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    border-radius: 6px;
+}
+.centrar_alerta{
+    position:absolute; /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%; /*determinamos una anchura*/
+    width:500px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-250px;/*determinamos una altura*/
+    height:200px; /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-100px;
+    border:1px solid #808080;
+    padding:8px;
+    background-color:#ffffff;
+    opacity:1;
+    box-shadow: 3px 3px 10px #999;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    border-radius: 6px;
+}
+.centrarsuperior{
+    position: initial;
+    margin: auto;
+    background-color:#ffffff;
+    box-shadow: 3px 3px 10px #999;
+}
+.centrado{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color:#ffffff;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 10px #000;
+    opacity:0.9;
+}
+.centradopw{
+    position: absolute;
+    width:420px;/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color:#ffffff;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 10px #000;
+    opacity:0.9;
+}
+.centradorcpw{
+    position: absolute;
+    width:450px;/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color:#ffffff;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 10px #000;
+    opacity:1;
+}
+/*--------------------------------------------formato de imagenes---------------------------------------------*/
+.img {
+    width: 23px;
+    height: 23px;
+    float: right; 
+    margin: 2px 0px 0px 0px;
+}
+.imginfo{
+    width: 25px;
+    height: 25px;
+    margin: 1px 0px -10px 5px;
+    cursor: url("../img/help.cur"), help;
+}
+.imgbtnpeq {
+    width: 16px;
+    height: 16px;
+    float: right; 
+    margin: 2px 0px 0px 0px
+}
+.imgbtn {
+    width: 20px;
+    height: 20px;
+    float: right; 
+    margin: 2px 0px 0px 0px
+}
+.imgpeq {
+    width: 18px;
+    height: 18px;
+    float: right; 
+    margin: 2px 0px 0px 0px
+}
+.imgnormal {
+    width: 25px;
+    height: 25px;
+    margin: -6px;
+}
+.imgmenu {
+    width: 23px;
+    height: 23px;
+    margin: -7px;
+}
+.imgico {
+    width: 30px;
+    height: 30px;
+    margin: -7px;
+}
+.imgind {
+    width: 20px;
+    height: 20px;
+    margin: -5px;
+}
+.imgcopy {
+    width: 22px;
+    height: 22px;
+    margin: -5px;
+}
+.imgborra {
+    width: 14px;
+    height: 14px;
+    margin: -1px;
+}
+.imgico:hover{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.imgcopy:hover{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.imgnormal:hover{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.imgpeq:hover{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.imgvista {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 2px;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+.imgnoenc {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 50%;
+    text-align: center;
+}
+.imgcentro {
+    width: 23px;
+    height: 23px;
+}
+.imgcentro:hover{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.imgiz {
+    width: 18px;
+    height: 18px;
+    float: left; 
+    margin: 2px 0px 0px 0px
+}
+/*--------------------------------------------------validaciones-------------------------------------------------*/
+input[type=number]
+input:valid {
+    background:#dddddd;
+    color: #000000;
+}
+input:invalid {
+    background:  #ff000e;
+    color: #ffffff;
+}
+form input:required {
+    border: 1px solid #000000;
+}
+form input:invalid {
+    background:  #dddddd;
+    color: #000000;
+}
+/*----------------------------------------------------varios------------------------------------------------------*/
+.alto{
+    height: 30px;
+}
+.ancho{
+    width: 150px;
+    height: 30px;
+}
+.bajo {
+    margin-bottom: -15px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-weight: 600;
+    font-size: 11px;
+    overflow:auto;
+    box-shadow: 2px 3px 3px 0px #1c1c1e;
+}
+input[type=radio] {
+    transform: scale(1.5);  
+}
+input[type=checkbox] {
+    transform: scale(1.5);  
+}
+#menu {
+    margin-top: 10px;
+    width: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+#scroll {
+    position:fixed;
+    right:5px;
+    bottom:5px;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    background-color:#808080;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 8px #000000;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+    box-shadow: 3px 3px 10px #999; 
+}
+/***********************************************graficos*****************************************************/
+.chart{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    top: auto;
+    background-color:#ffffff;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+    opacity:0.9;
+}
